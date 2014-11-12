@@ -1,0 +1,560 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+
+
+<link rel="stylesheet" type="text/css" href="stylesheet.v2.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+
+<title>eAppraisalService - Order</title>
+</head>
+
+<body>
+	<header>
+    
+    	<div class="container" id="topContainer">
+        	<div class="row">
+            	<div class="col-lg-6">
+                    <img src="imgs/logofinal20.jpg" width="334" height="159" alt="Real Estate Appraisal" class="logo"/><br><hr class="line1" width="100%" height="2px" color="#b8221f"><br>
+                    
+                         <div class="row" id="smhouse">
+                            <div class="col-lg-2"><img src="imgs/house1.gif" width="54" height="56" alt=""/></div>
+                            <div class="col-lg-8"><h3>Home Values</h3><h4><span>FREE</span> Home Value & Sales Comps</h4></div> 	
+                         </div> <!-- Row -->
+                                
+                         <div class="row" id="address"><form>
+                            <div class="col-lg-4">Enter Address:<br><input type="text"><br></div>   
+                            <div class="col-lg-4">City, State & Zip:<br><input type="text"></div>
+                            <div class="col-lg-4"><input type="submit" value="GO!" id="go"></div></form>  
+                  		</div><!-- Row -->      
+                </div> <!-- Col 6 -->
+                   
+                <div class="col-lg-6">
+                
+                    <div class="navbar" id="top_nav">
+                    
+                    	<ul>
+                        	<li><a href="../site.html">Lender Log-In</a></li>
+                            <li><a href="../help.html">Appraiser Log-In</a></li>
+                            <li><a href="#">Home</a></li>
+                                
+                        </ul>
+                        
+                	  
+                    
+               		</div> <!-- Navbar -->  <hr width="100%" height="5px" color="#d9d7d7"/>
+               		<img src="imgs/house.gif" width="402" height="190" alt="" class="house"/>
+               </div> <!-- Col 6 -->     
+               
+            </div> <!-- Row -->
+       </div> <!--Container -->    
+            
+            
+   </header>        
+    
+         
+<!-- 						Navigation 									-->         
+    <nav class="navbar navbar-inverse">
+    
+    <div class="container" id="navbar_nav">
+      <div class="navbar-header" id="nav">
+      	<button type="buton" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        	<span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+       	</button>
+        
+        <div class="collapse navbar-collapse" id="myNavBar">
+           <ul class="nav navbar-nav">
+                <li><a href="index.html">HOME PAGE<img src="imgs/key.png" width="20" height="25" alt="" class="key"/></a></li>
+                <li><a href="about.html">ABOUT US<img src="imgs/key.png" width="20" height="25" alt=""/></a></li>
+                <li><a href="lenders.html">LENDERS<img src="imgs/key.png" width="20" height="25" alt=""/></a></li>
+                <li><a href="appraisers.html">APPRAISERS<img src="imgs/key.png" width="20" height="25" alt=""/></a></li>
+                <li><a href="order.html">ORDER<img src="imgs/key.png" width="20" height="25" alt=""/></a></li>
+                <li><a href="our_prices.html">OUR PRICES<img src="imgs/key.png" width="20" height="25" alt=""/></a></li>
+                <li><a href="contact.html">CONTACT<img src="imgs/key.png" width="20" height="25" alt=""/></a></li>
+            </ul>                   
+                        
+		</div><!-- Nav -->
+     </div>
+    </div> <!-- Container -->
+    </nav>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-4" id="left_side">
+            	<div class="module_top_left"><h4>We provide <span>appraisals</span> for?</h4>
+                <ul style="list-style-type: circle" >
+                	<li>Primary & Secondary Mortgages</li>
+                    <li>Mortgage Refinancing</li>
+                    <li>Foreclosures/REO's</li>
+                    <li>Divorce Settlement</li>
+                    <li>Estate Planning</li>
+                    <li>PMI Removal</li>
+                    <li>Rent Surveys & Operating Income Statements</li>
+                    <li>Field & Desk Reviews</li>
+                    <li>Pre-Listing Appraisal</li>
+                    <li>FHA</li>
+                    <li>Broker Price Opinions</li>
+				</ul>
+	 	</div>
+                <div><img src="imgs/2p1.gif" width="170" height="79" alt=""/></div>
+            
+            </div> <!-- Col 4 -->
+            
+            <div class="col-lg-8">
+            		 <div id="module_right_top_text_order"><h4><span>Appraisal</span> Order Form</h4><br><span class="style2"><a href="http://www.eappraisalservice.com/requestform.pdf">Click here</a> if you would like to fax a pdf order.</span><br>
+                		</div>
+
+                <div class="row">
+                		<div class="col-lg-8" id="left_bottom">
+                        	<script language="JavaScript" type="text/javascript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+  if (theForm.Client_First_Name.value == "")
+  {
+    alert("Please enter a value for the "Client_First_Name" field.");
+    theForm.Client_First_Name.focus();
+    return (false);
+  }
+  if (theForm.Client_Last_Name.value == "")
+  {
+    alert("Please enter a value for the "Client_Last_Name" field.");
+    theForm.Client_Last_Name.focus();
+    return (false);
+  }
+  if (theForm.Client_Title.value == "")
+  {
+    alert("Please enter a value for the "Client_Title" field.");
+    theForm.Client_Title.focus();
+    return (false);
+  }
+  if (theForm.Company.value == "")
+  {
+    alert("Please enter a value for the "Company" field.");
+    theForm.Company.focus();
+    return (false);
+  }
+  if (theForm.Company_Address.value == "")
+  {
+    alert("Please enter a value for the "Company_Address" field.");
+    theForm.Company_Address.focus();
+    return (false);
+  }
+  if (theForm.Company_City.value == "")
+  {
+    alert("Please enter a value for the "Company_City" field.");
+    theForm.Company_City.focus();
+    return (false);
+  }
+  if (theForm.Company_State.value == "")
+  {
+    alert("Please enter a value for the "Company_State" field.");
+    theForm.Company_State.focus();
+    return (false);
+  }
+  if (theForm.Company_Zip.value == "")
+  {
+    alert("Please enter a value for the "Company_Zip" field.");
+    theForm.Company_Zip.focus();
+    return (false);
+  }
+  var checkOK = "0123456789-.,";
+  var checkStr = theForm.Company_Zip.value;
+  var allValid = true;
+  var validGroups = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch == ".")
+    {
+      allNum += ".";
+      decPoints++;
+    }
+    else if (ch == "," && decPoints != 0)
+    {
+      validGroups = false;
+      break;
+    }
+    else if (ch != ",")
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the "Company_Zip" field.");
+    theForm.Company_Zip.focus();
+    return (false);
+  }
+  if (decPoints > 1 || !validGroups)
+  {
+    alert("Please enter a valid number in the "Company_Zip" field.");
+    theForm.Company_Zip.focus();
+    return (false);
+  }
+  if (theForm.Client_Telephone.value == "")
+  {
+    alert("Please enter a value for the "Client_Telephone" field.");
+    theForm.Client_Telephone.focus();
+    return (false);
+  }
+  var checkOK = "0123456789-.,";
+  var checkStr = theForm.Client_Telephone.value;
+  var allValid = true;
+  var validGroups = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch == ".")
+    {
+      allNum += ".";
+      decPoints++;
+    }
+    else if (ch == "," && decPoints != 0)
+    {
+      validGroups = false;
+      break;
+    }
+    else if (ch != ",")
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the "Client_Telephone" field.");
+    theForm.Client_Telephone.focus();
+    return (false);
+  }
+  if (decPoints > 1 || !validGroups)
+  {
+    alert("Please enter a valid number in the "Client_Telephone" field.");
+    theForm.Client_Telephone.focus();
+    return (false);
+  }
+  if (theForm.Client_Fax.value == "")
+  {
+    alert("Please enter a value for the "Client_Fax" field.");
+    theForm.Client_Fax.focus();
+    return (false);
+  }
+  if (theForm.Client_Email.value == "")
+  {
+    alert("Please enter a value for the "Client_Email" field.");
+    theForm.Client_Email.focus();
+    return (false);
+  }
+  if (theForm.Customer_First_Name.value == "")
+  {
+    alert("Please enter a value for the "Customer_First_Name" field.");
+    theForm.Customer_First_Name.focus();
+    return (false);
+  }
+  if (theForm.Customer_Last_Name.value == "")
+  {
+    alert("Please enter a value for the "Customer_Last_Name" field.");
+    theForm.Customer_Last_Name.focus();
+    return (false);
+  }
+  if (theForm.Property_Address.value == "")
+  {
+    alert("Please enter a value for the "Property_Address" field.");
+    theForm.Property_Address.focus();
+    return (false);
+  }
+  if (theForm.Property_City.value == "")
+  {
+    alert("Please enter a value for the "Property_City" field.");
+    theForm.Property_City.focus();
+    return (false);
+  }
+  if (theForm.Property_State.value == "")
+  {
+    alert("Please enter a value for the "Property_State" field.");
+    theForm.Property_State.focus();
+    return (false);
+  }
+  if (theForm.Property_Zip.value == "")
+  {
+    alert("Please enter a value for the "Property_Zip" field.");
+    theForm.Property_Zip.focus();
+    return (false);
+  }
+  var checkOK = "0123456789-.,";
+  var checkStr = theForm.Property_Zip.value;
+  var allValid = true;
+  var validGroups = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch == ".")
+    {
+      allNum += ".";
+      decPoints++;
+    }
+    else if (ch == "," && decPoints != 0)
+    {
+      validGroups = false;
+      break;
+    }
+    else if (ch != ",")
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the "Property_Zip" field.");
+    theForm.Property_Zip.focus();
+    return (false);
+  }
+  if (decPoints > 1 || !validGroups)
+  {
+    alert("Please enter a valid number in the "Property_Zip" field.");
+    theForm.Property_Zip.focus();
+    return (false);
+  }
+  var checkOK = "0123456789-.,";
+  var checkStr = theForm.Property_Phone.value;
+  var allValid = true;
+  var validGroups = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch == ".")
+    {
+      allNum += ".";
+      decPoints++;
+    }
+    else if (ch == "," && decPoints != 0)
+    {
+      validGroups = false;
+      break;
+    }
+    else if (ch != ",")
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the "Property_Phone" field.");
+    theForm.Property_Phone.focus();
+    return (false);
+  }
+  if (decPoints > 1 || !validGroups)
+  {
+    alert("Please enter a valid number in the "Property_Phone" field.");
+    theForm.Property_Phone.focus();
+    return (false);
+  }
+  return (true);
+}
+//--></script>
+<form action="gdform.php" method="post" enctype="application/x-www-form-urlencoded" onSubmit="return FrontPage_Form1_Validator(this)" language="JavaScript" name="FrontPage_Form1"><div align="center">
+<input type="hidden" name="recipient" value="snelson@eappraisalservice.com"></span><span style="display: none">
+<input type="hidden" name="redirect" value="payment.html"></span>
+  <table width="100%" border="0" cellpadding="0" bgcolor="#ffffff" style="background:none repeat scroll 0% 50%; width: ; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial"><tbody><tr style="height: 2.25pt"><td colspan="2" style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal&gt;&lt;span style= style4"font-size: 11pt; font-family: Verdana; color: black"><strong>Lender Information:</strong></p>             
+</td>
+  </tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; ; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">First Name:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Client_First_Name">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; background: none repeat scroll 0% 50%; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Last Name:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Client_Last_Name">
+</p>       </td></tr><tr style="height: 2.25pt"><td height="26" style="padding: 0.75pt; background: none repeat scroll 0% 50%; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Title:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Client_Title">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; ; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Company:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Company">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Company Address:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Company_Address">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">City:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="30" name="Company_City">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">State:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="2" name="Company_State">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Zip:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" S-Data-Type="Number"
+              S-Number-Separators=",." B-Value-Required="TRUE" -->
+<input type="text" size="5" name="Company_Zip">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt;width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Telephone:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" S-Data-Type="Number"
+              S-Number-Separators=",." B-Value-Required="TRUE" -->
+<input type="text" size="15" name="Client_Telephone">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Fax:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="15" name="Client_Fax">
+</p>       </td></tr><tr style="height: 2.25pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 2.25pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Email:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 2.25pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Client_Email">
+</p>       </td></tr><tr style="height: 1.5pt"><td colspan="2" style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 11pt; font-family: Verdana; color: black"><strong>Customer Information:</strong></span> 
+  
+  <span style="font-size: 2pt">
+  <o:p></o:p>
+  </span></p>             
+</td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">First Name:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Customer_First_Name">
+</p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Last Name:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Customer_Last_Name">
+</p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Property       Address:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Property_Address">
+</p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">County:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="County">
+</p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">City:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="40" name="Property_City">
+</p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">State: </span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" B-Value-Required="TRUE" -->
+<input type="text" size="2" name="Property_State"></p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Zip:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" S-Data-Type="Number"
+              S-Number-Separators=",." B-Value-Required="TRUE" -->
+<input type="text" size="5" name="Property_Zip"></p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Phone: </span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><!--webbot bot="Validation" S-Data-Type="Number"
+              S-Number-Separators=",." -->
+<input type="text" size="15" name="Property_Phone">
+</p>       </td></tr>
+<tr style="height: 1.5pt">
+  <td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt"><p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Est. Value : </span></p></td>
+  <td style="padding: 0.75pt; width: 115%; height: 1.5pt"><p class="MsoNormal">
+    <!--webbot bot="Validation" S-Data-Type="Number"
+              S-Number-Separators=",." -->
+    <input type="text" size="20" name="Est_Value">
+  </p></td>
+</tr>
+<tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Appraisal Type:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><select name="Attend_Event">
+<option value="Refinance">Refinance </option>
+<option value="Purchase">Purchase </option>
+<option value="BPO">BPO </option>
+<option value="Other">Other </option></select></p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Form:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+  <p class="MsoNormal">
+    <select name="select">
+      <option value="1004 Full Appraisal - $350">1004 Full Appraisal - $350 </option>
+      <option value="1004 w/REO Addendum - $450">1004 w/REO Addendum - $450 </option>
+      <option value="1004 Ranchette - $450">1004 Ranchette - $450 </option>
+      <option value="1004 over 3000 sq ft - $450">1004 over 3000 sq ft - $450 </option>
+      <option value="1004 FHA - $450">1004 FHA - $450 </option>
+      <option value="2055 Exterior - $275">2055 Exterior - $275 </option>
+      <option value="1025 Multi Family - $700">1025 Multi Family - $700 </option>
+      <option value="1073 Condo - $350">1073 Condo - $350 </option>
+      <option value="Desk Review - $150">Desk Review - $150 </option>
+      <option value="2000 Field Review - $200 ">2000 Field Review - $200 </option>
+      <option value="BPO Interior - $150">BPO Interior - $150 </option>
+      <option value="BPO Exterior - $100">BPO Exterior - $100 </option>
+      <option value="BPO Desktop - $75">BPO Desktop - $75 </option>
+      <option value="Other">Other </option>
+    </select>
+  </p></td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 47%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt">      
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana; color: black">Additional Forms:</span></p>       </td><td style="padding: 0.75pt; width: 115%; height: 1.5pt">      
+<p class="MsoNormal"><select name="Attend_Event">
+<option value="None">None </option>
+<option value="1004D Completion Report - $100">1004D Completion Report - $100 </option>
+<option value="216 Operating Income/1007 Rent Schedule - $150">216 Operating Income/1007 Rent Schedule - $150 </option>
+</select></p>       </td></tr><tr style="height: 1.5pt"><td style="padding: 0.75pt; width: 162%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; height: 1.5pt" colspan="2">      
+<p style="text-align: center" align="center">
+<input type="submit" action="http://icandydigitalmedia.com/cgi-sys/FormMail.cgi" value="Order" method="POST" name="B1">
+<input type="reset" name="B2"></p>       </td></tr></tbody></table>     
+</div>     </form> <br style="line-height:12px">
+												        <b><a href="#"></a></b></p>
+													</div></td>
+													</tr>
+                    	</div> <!-- Col 8 -->
+                    	
+                        
+                
+                </div> <!--Row -->    
+            </div> <!-- Col 8 -->
+        </div> <!-- Row -->
+        
+    </div><!-- Container -->    
+
+
+
+	<div class="container">
+    <hr>
+    	<div class="row" id="footer">
+        	<div class="col-lg-4" style="margin-top: 20px">
+            	<small>eAppraisalService &copy;2007-2014 </small><a href="#">Privacy Policy</a>  
+            </div>
+            
+            <div class="col-lg-7" style="margin-top: 20px">
+            <h4 style="float: right">Call Free: <span>1-800-555-5555</span></h4>
+            </div>
+            
+            <div class="col-lg-1" style="padding-right: 0" >
+            <img src="imgs/phone.gif" width="72" height="62" alt="" id="phone"/>
+            </div>
+            
+     </div> <!-- Row -->
+     
+   </div> <!-- Container -->
+     
+            
+<script src="bootstrap.js"></script>    
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
